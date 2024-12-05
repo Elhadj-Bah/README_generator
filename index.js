@@ -2,7 +2,8 @@
 
 import fs from 'fs';
 import inquirer from 'inquirer';
-import generateMarkdown from './utils/generateMarkdown';
+import generateMarkdown from './utils/generateMarkdown.js';
+// 
 
 // TODO: Create an array of questions for user input
 
@@ -47,27 +48,20 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'What is your GitHub username?'
+        message: 'Enter your GitHub username?'
     },
     {
         type: 'input',
         name: 'email',
-        message: 'What is your email address?'
+        message: 'Enter your email address?'
     }
 ];
-
-// Prompt the user with the questions
-// inquirer.prompt(questions)
-//     .then(answers => {
-//         // Print the collected responses
-//         console.log('User Input:');
-//         console.log(answers);
 
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data ,(err) => {
-        err ? console.log(err) : console.log('Successfully created a README file!')
+        err ? console.log(err) : console.log('SAMPLE_README.md has been generated!');
 });
 }
 

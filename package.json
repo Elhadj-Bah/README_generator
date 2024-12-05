@@ -1,5 +1,5 @@
 {
-  "name": "static-site",
+  "name": "readme_generator",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -12,5 +12,5 @@
     "inquirer": "^8.2.4"
   },
   "keywords": [],
-  "description": "module7-README-Generator"
+  "description": "Generate a professional README.md from the commande line"
 }
