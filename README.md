@@ -6,7 +6,7 @@
 
 This project is a command-line application that dynamically generates a `README.md` file based on user input. It utilizes Node.js along with the `inquirer` and `fs` modules to prompt the user with questions and create a README file with the provided responses. User can quickly and easily create a README file by using a command-line application to generate README.md. This allows the project creator to devote more time to working on the project.
 
-Walkthrough video link: coming soon!
+Walkthrough video link:https://drive.google.com/file/d/1Bim3oxWI6nyNVdHFRdhpsqBT862ruT2s/view?usp=sharing
 
 ## Table of Contents
 
